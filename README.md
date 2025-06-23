@@ -77,3 +77,11 @@ Automatic Mixed Precision (AMP)
 Confusion matrix (raw counts and normalized)
 Excel export of classification results
 Training/validation loss curves
+
+## Results Visualization
+The script automatically generates:
+1. Training/validation loss curves
+2. Dynamic weight adjustment plots
+3. Validation accuracy progression
+4. Normalized confusion matrix
+5. Weight-accuracy analysis curves
