@@ -85,3 +85,11 @@ The script automatically generates:
 3. Validation accuracy progression
 4. Normalized confusion matrix
 5. Weight-accuracy analysis curves
+
+## Customization
+Modify MultiModalModel class for architectural changes
+Adjust load_data() parameters for different:
+Sliding window sizes
+Maximum samples per class
+Image dimensions
+Tune hyperparameters in training section
