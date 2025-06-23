@@ -89,7 +89,7 @@ The script automatically generates:
 ## Customization
 Modify MultiModalModel class for architectural changes
 Adjust load_data() parameters for different:
-Sliding window sizes
-Maximum samples per class
-Image dimensions
-Tune hyperparameters in training section
+1. Sliding window sizes
+2. Maximum samples per class
+3. Image dimensions
+4. Tune hyperparameters in training section
