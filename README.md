@@ -49,7 +49,7 @@ python TrainAndTest.py
 
 ## Key Components
 ### Data Loading
-Processes Excel files containing sequence data (4 columns x sliding_window rows). Loads corresponding JPG images (resized to 256x256). Applies normalization to both data types.
+Processes Excel files containing sequence data (4 columns x sliding_window rows). Loads corresponding JPG images (resized to 128x128). Applies normalization to both data types.
 
 ### Model Architecture
 Image Pathway:
@@ -66,7 +66,7 @@ Combined:
 [Image Features * weight] + [Sequence Features * weight] → FC(64) → Output(5)
 ```
 ### Training
-800 epochs with early stopping
+200 epochs with early stopping
 Adam optimizer (lr=0.001)
 Cross-entropy loss
 Automatic Mixed Precision (AMP)
