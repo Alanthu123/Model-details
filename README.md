@@ -49,9 +49,7 @@ python TrainAndTest.py
 
 ## Key Components
 ### Data Loading
-Processes Excel files containing sequence data (4 columns x sliding_window rows)
-Loads corresponding JPG images (resized to 256x256)
-Applies normalization to both data types
+Processes Excel files containing sequence data (4 columns x sliding_window rows). Loads corresponding JPG images (resized to 256x256). Applies normalization to both data types.
 
 ### Model Architecture
 Image Pathway:
